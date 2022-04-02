@@ -5135,9 +5135,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-server@workspace:packages/server":
+"express-server@workspace:packages/express-server":
   version: 0.0.0-use.local
-  resolution: "express-server@workspace:packages/server"
+  resolution: "express-server@workspace:packages/express-server"
   dependencies:
     cross-env: 5.0.5
     express: ^4.17.3
@@ -7724,9 +7724,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open-rails-docs@workspace:packages/client":
+"open-rails-docs@workspace:packages/open-rails-docs":
   version: 0.0.0-use.local
-  resolution: "open-rails-docs@workspace:packages/client"
+  resolution: "open-rails-docs@workspace:packages/open-rails-docs"
   dependencies:
     "@docusaurus/core": 2.0.0-beta.17
     "@docusaurus/module-type-aliases": 2.0.0-beta.17
