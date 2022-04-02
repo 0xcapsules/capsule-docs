@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: Motivation and background
-slug: /intro
+slug: /
 sidebar_position: 1
 ---
 
