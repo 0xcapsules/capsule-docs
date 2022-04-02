@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+
+  "compilerOptions": {
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "incremental": true,
+    "composite": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

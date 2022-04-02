@@ -1,0 +1,13 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "cross-env": "5.0.5",
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts --exec 'ts-node' src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  }
+}
