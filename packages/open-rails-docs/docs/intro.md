@@ -16,8 +16,10 @@ Current Areas of focus:
 - Transaction-construction libraries for merchants
 - Transaction verification and observation libraries for merchants
 
-## Getting Started
+## Github Repos
 
-[Our Github Repos](https://github.com/Open-Rails)
+- ConnectRail: this is a Wallet <-> Dapp communication protocol, similar to Wallet Connect 1.0 on Ethereum. It consists of an open-source signaling server that establishes a WebRTC data channel between a dapp and wallet. Once the data channel is established, all communication occurs peer-to-peer and no intermediary server is needed.
 
-(To Do: more details)
+[All Github Repos](https://github.com/Open-Rails)
+
+This documentation is open-source and community-maintained, so feel free to add or change anything by editing files in the [/docs folder](https://github.com/Open-Rails/Docs/tree/master/packages/open-rails-docs/docs) and then submitting a pull-request.
