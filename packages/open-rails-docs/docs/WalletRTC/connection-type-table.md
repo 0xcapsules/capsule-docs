@@ -7,10 +7,10 @@ sidebar_position: 2
 
 These are all possible dapp <-> wallet communication pairings, and our recommended solution for each:
 
-|                          |                Browser Extension                 |                  Web-Wallet                   |                  Mobile Wallet                  | Desktop Wallet |
-| :----------------------- | :----------------------------------------------: | :-------------------------------------------: | :---------------------------------------------: | :------------: |
-| **Desktop Web-dapp**     | [Provider-injection from extension](#connect-01) | [Provider-injection from iframe](#connect-02) |                    WalletRTC                    |   WalletRTC    |
-| **Mobile Web-dapp**      |                        X                         |              Provider-injection               | Provider-injection via mobile browser extension |   Wallet-RTC   |
+|                          |                Browser Extension                 |                  Web-Wallet                   |                  Mobile Wallet                  |      Desktop Wallet      |
+| :----------------------- | :----------------------------------------------: | :-------------------------------------------: | :---------------------------------------------: | :----------------------: |
+| **Desktop Web-dapp**     | [Provider-injection from extension](#connect-01) | [Provider-injection from iframe](#connect-a2) |            [WalletRTC](#connect-03)             | [WalletRTC](#connect-04) |
+| **Mobile Web-dapp**      |                        X                         |              Provider-injection               | Provider-injection via mobile browser extension |        Wallet-RTC        |
 | **Desktop Program Dapp** |
 | **Remote Server**        |
 | **Kiosk**                |
@@ -25,9 +25,9 @@ These are all possible dapp <-> wallet communication pairings, and our recommend
 - <h3 id="connect-01"><b>Browser Extension</b></h3>
   Provider Injection: the browser-extension injects a global object, such as window.solana, into the web-dapp page, which the dapp then interacts with. This was popularized by MetaMask.<br/><br/>
 
-- ### **Web Wallet** {connect-02}
+- ### Web Wallet { connect-a2 }
 
-  Provider Injection: the web-dapp adds a wallet adapter library. This library creates a hidden iframe for the web-wallet, providing the web-wallet with its own separate exeuction environment. The wallet adapter library injects a global object, such as window.solana, which the dapp communicates with using the same interface [as above](#connect-01). Behind the scenes the iframe and wallet-adapter library communicate with `window.postMessage()` methods. This is how Torus wallet works. A redirect flow is also possible (dapp -> web-wallet domain -> dapp), where communication is done via encoded query-params included in the URL, although from a UI point of view this solution is less elegant. <br/><br/>
+  Provider Injection: the web-dapp adds a wallet adapter library. This library creates a hidden iframe for the web-wallet, providing the web-wallet with its own separate exeuction environment. The wallet adapter library injects a global object, such as window.solana, which the dapp communicates with using the same interface [as above](#connect-01). Behind the scenes the iframe and wallet-adapter library communicate with `window.postMessage()` methods. This is how Torus wallet works. A redirect flow is also possible (dapp -> web-wallet domain -> dapp), where communication is done via encoded query-params included in the URL, although from a UI point of view this solution is less elegant.
 
 - <h3 id="connect-03"><b>Mobile Wallet</b></h3>
   WalletRTC: We establish a direct WebRTC connection between the two applications. <br/><br/>
