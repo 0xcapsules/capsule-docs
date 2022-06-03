@@ -15,5 +15,3 @@ Mobile Apps: a dapp that wants to talk to a desktop wallet. React Native, Swift,
 A library for kiosks
 
 A library for mobile app wallets
-
-[^1]: Note that, for our purposes here, it doesn't matter if the tx-construction and tx-verification are done in the user's browser (self-sufficient client), or done on a remote server (relay client), because the user-interface is the same. Another dapp use-case not considered here is headless servers, such as a remote linux server that you communicate with via command line. Usually in these cases you have a CLI-tool that stores your private key and produces signatures using it.

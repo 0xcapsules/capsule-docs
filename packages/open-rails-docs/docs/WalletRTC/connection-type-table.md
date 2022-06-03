@@ -133,3 +133,5 @@ These are all possible dapp <-> wallet communication pairings, and our recommend
 - ### Desktop Wallet {#connect-f4}
 
   X: desktop computers are not mobile, so it's infeasible to use them.
+
+  [^1]: Note that, for our purposes here, it doesn't matter if the tx-construction and tx-verification are done in the user's browser (self-sufficient client), or done on a remote server (relay client), because the user-interface is the same. Another dapp use-case not considered here is headless servers, such as a remote linux server that you communicate with via command line. Usually in these cases you have a CLI-tool that stores your private key and produces signatures using it.
