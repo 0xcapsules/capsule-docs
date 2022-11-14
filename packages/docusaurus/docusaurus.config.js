@@ -24,7 +24,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Open-Rails/Docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/open-rails/noot-docs/tree/master/packages/docusaurus/docs',
         },
         blog: {
           showReadingTime: true,

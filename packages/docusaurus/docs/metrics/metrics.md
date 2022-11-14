@@ -1,8 +1,8 @@
 ---
-title: Metrics
+title: NFT-Metrics
 description: comparing NFT mint-volume and cost across chains
-slug: /
-sidebar_position: 2
+slug: /metrics
+sidebar_position: 1
 ---
 
 | Network             | Data per Collection | Data per NFT | Cost to mint        | Cost to buy | Time to mint 1m NFTs | Cost to mint 1m NFTs |
