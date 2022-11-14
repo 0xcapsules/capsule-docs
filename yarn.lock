@@ -7764,9 +7764,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open-rails-docs@workspace:packages/open-rails-docs":
+"open-rails-docs@workspace:packages/docusaurus":
   version: 0.0.0-use.local
-  resolution: "open-rails-docs@workspace:packages/open-rails-docs"
+  resolution: "open-rails-docs@workspace:packages/docusaurus"
   dependencies:
     "@docusaurus/core": 2.0.0-beta.17
     "@docusaurus/module-type-aliases": 2.0.0-beta.17
