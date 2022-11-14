@@ -1,7 +1,7 @@
 ---
-title: Introduction
+title: Deriving Noots
 description: Deriving Noots
-slug: /
+slug: /deriving-noots
 sidebar_position: 2
 ---
 
