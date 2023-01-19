@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenRails',
-  tagline: 'Open-source implementations of Solana transactions and authentication standards',
-  url: 'https://openrails.dev',
+  title: 'Capsules',
+  tagline: 'Open-source modules for creating and managing assets on Sui',
+  url: 'https://www.capsulecraft.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'OpenRails',
+  organizationName: 'CapsuleCreator',
   projectName: 'docs',
 
   presets: [
@@ -24,12 +24,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/open-rails/noot-docs/tree/master/packages/docusaurus/docs',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/Open-Rails/Docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -42,9 +37,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'OpenRails',
+        title: 'Capsules',
         logo: {
-          alt: 'OpenRails',
+          alt: 'Capsules',
           src: 'img/icon.png',
         },
         items: [

@@ -5,6 +5,8 @@ slug: /metrics
 sidebar_position: 1
 ---
 
+(These numbers need to be double-checked)
+
 | Network             | Data per Collection | Data per NFT | Cost to mint        | Cost to buy | Time to mint 1m NFTs | Cost to mint 1m NFTs |
 | ------------------- | ------------------- | ------------ | ------------------- | ----------- | -------------------- | -------------------- |
 | Ethereum            | 24 KBs              | 800 bytes    | 0.0016 ETH ($2.50)  | ?????       | ~55 hours            | 1,600 ETH ($2.56m)   |
@@ -49,3 +51,7 @@ https://www.theblock.co/linked/144549/otherside-land-nfts-sell-out-in-hours-as-y
 https://medium.com/aptoslabs/aptos-nfts-solving-nft-minting-at-scale-79a4334ac8ac
 
 Claims they can mint 'millions' of NFTs in an hour. No technical details or code were provided.
+
+### Serverless Functions:
+
+Note that AWS lambda functions cost around $0.30+ per 1 million executions. Price increases dependent upon RAM required and time of execution.
