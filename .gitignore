@@ -3,5 +3,6 @@
 **/dist
 **/.docusaurus
 **/.cache-loader
-
+**/.yarn
+*.lock
 .env
