@@ -1,9 +1,9 @@
 import React, {useState } from 'react';
-import './converterStyle.css';
+import './serializer.css';
 import {serializeBcs, bcs } from "@capsulecraft/serializer";
 import Layout from '@theme/Layout';
 
-export default function Converter() {
+export default function Serializer() {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
 
