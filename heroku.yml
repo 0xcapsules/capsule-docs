@@ -1,2 +1,11 @@
-run:
-  web: npm i -g pnpm & pnpm i & pnpm build & pnpnm start
+build:
+  env:
+    PNPM_CACHE_FOLDER: "${BUILD_DIR}/.pnpm-cache"
+  package:
+    manager: pnpm
+    run:
+      npm ci
+
+release:
+  command:
+    - pnpm build & pnpm start
