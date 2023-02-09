@@ -12,7 +12,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npm i pnpm; pnpm -r build",
+    "build": "npm i pnpm; pnpm i; pnpm -r build",
     "start": "cd packages/express-server && pnpm start"
   },
   "packageManager": "yarn@3.4.1",
