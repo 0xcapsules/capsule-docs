@@ -12,8 +12,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "yarn workspaces foreach run build",
-    "start": "cd packages/express-server && yarn start"
+    "build": "pnpm -r build",
+    "start": "cd packages/express-server && pnpm start"
   },
   "packageManager": "yarn@3.4.1",
   "dependencies": {
