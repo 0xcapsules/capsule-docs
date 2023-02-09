@@ -2,8 +2,7 @@
   "name": "root",
   "private": true,
   "engines": {
-    "node": "18.12.1",
-    "pnpm": "6.23.1"
+    "node": "18.12.1"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
