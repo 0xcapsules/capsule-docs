@@ -3,7 +3,8 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -15,7 +16,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: "Rubik";
+  --ifm-font-family-base: "Fira Sans";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
