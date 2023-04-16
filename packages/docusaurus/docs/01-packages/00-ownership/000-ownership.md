@@ -1,0 +1,4 @@
+---
+slug: ownership
+title: Ownership
+---

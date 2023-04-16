@@ -1,0 +1,4 @@
+---
+slug: display
+title: Display
+---

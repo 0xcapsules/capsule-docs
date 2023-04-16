@@ -1,1 +1,0 @@
-[Go to capsules serializer](/converter)
