@@ -23,7 +23,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs",
+          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
