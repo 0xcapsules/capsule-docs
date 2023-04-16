@@ -1,34 +1,34 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Capsules',
-  tagline: 'Open-source modules for creating and managing assets on Sui',
-  url: 'https://www.capsulecraft.dev',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'CapsuleCreator',
-  projectName: 'docs',
-
+  title: "Capsules",
+  tagline: "Open-source modules for creating and managing assets on Sui",
+  url: "https://www.capsulecraft.dev",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/icon.png",
+  organizationName: "CapsuleCraft",
+  projectName: "Capsules Docs",
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs',
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
+        blog: false,
       }),
     ],
   ],
@@ -36,68 +36,54 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
-        title: 'Capsules',
+        title: "Capsules",
         logo: {
-          alt: 'Capsules',
-          src: 'img/icon.png',
+          alt: "Capsules",
+          src: "img/icon.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            label: "GitHub",
+            position: "right",
+            href: "https://github.com/capsule-craft",
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/7sHp5eE5',
+                label: "Discord",
+                href: "https://discord.gg/Q2X8nUbe",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/CapsuleCrafter",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Open-Rails',
+                label: "GitHub",
+                href: "https://github.com/capsule-craft",
               },
             ],
           },
         ],
-        copyright: `Nothing here is copyright. Built with Docusaurus.`,
+        copyright: `Copyright &copy; ${new Date().getFullYear()} CapsuleCraft`,
       },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
