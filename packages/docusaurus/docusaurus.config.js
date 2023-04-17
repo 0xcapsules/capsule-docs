@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Capsules",
-  tagline: "Open-source modules for creating and managing assets on Sui",
+  tagline: "Metadata, ownership, and market standard for assets on Sui",
   url: "https://www.capsulecraft.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -23,7 +23,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs",
+          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -36,11 +36,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      docs: {
-        sidebar: {
-          hideable: true,
-        },
-      },
       navbar: {
         title: "Capsules",
         logo: {
