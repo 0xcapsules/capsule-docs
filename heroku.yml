@@ -1,10 +1,10 @@
 build:
   env:
+    NODE_MODULES_CACHE: false
     PNPM_CACHE_FOLDER: "${BUILD_DIR}/.pnpm-cache"
   package:
     manager: pnpm
-    run:
-      npm ci
+    run: npm ci
 
 release:
   command:
