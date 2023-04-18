@@ -82,6 +82,8 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        defaultLanguage: "rust",
+        additionalLanguages: ["rust"],
       },
     }),
 };
