@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/icon.png",
+  favicon: "img/logo.svg",
   organizationName: "CapsuleCraft",
   projectName: "Capsules Docs",
   presets: [
@@ -40,7 +40,7 @@ const config = {
         title: "Capsules",
         logo: {
           alt: "Capsules",
-          src: "img/icon.png",
+          src: "img/logo.svg",
         },
         items: [
           {
