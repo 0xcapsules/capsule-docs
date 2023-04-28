@@ -23,7 +23,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/0xcapsules/capsule-docs/tree/master",
+          editUrl: "https://github.com/capsule-craft/capsule-docs/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,7 +58,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord.gg/Q2X8nUbe",
+                href: "https://discord.gg/uUtGfNJy",
               },
               {
                 label: "Twitter",
