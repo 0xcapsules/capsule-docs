@@ -35,6 +35,6 @@ Also, "Fungibility" is a weird, esoteric word, and seems like an odd thing to fo
 
 ## Github Repos
 
-[All Github Repos](https://github.com/orgs/0xcapsules/repositories)
+[All Github Repos](https://github.com/orgs/capsule-craft/repositories)
 
-This documentation is open-source and community-maintained, so feel free to add or change anything by editing files in the [/docs folder](https://github.com/0xcapsules/capsule-docs/tree/master/packages/docusaurus/docs) and then submitting a pull-request.
+This documentation is open-source and community-maintained, so feel free to add or change anything by editing files in the [/docs folder](https://github.com/capsule-craft/capsule-docs/tree/master) and then submitting a pull-request.
